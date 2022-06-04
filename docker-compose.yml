@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    tty: true
+    container_name: nginx
+    ports:
+      - 5321:80
+    volumes:
+      - ./nginx/conf:/etc/nginx/conf.d
+      - ./src:/usr/share/nginx/html

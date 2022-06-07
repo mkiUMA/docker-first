@@ -8,6 +8,9 @@ dockerを使ってnginxでwebページを表示
 docker compose up -d
 ```
 
+##　アクセス方法
+localhost:5321
+
 ## 使用技術
 
 - docker compose
